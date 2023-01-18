@@ -1,0 +1,7 @@
+{
+  "http://localhost:3000/js/Button.js": { "integrity": "sha512-VeDKsm99amrHVfwsgv+Ko6OveJ19LjmQXc61eiTdXzSBqPF5dAYs3DbmDyRlBHU8fbtfwMz/Ne0a9bdkW9S1tw==", "contentType": "application/javascript; charset=UTF-8" },
+  "https://cdn.skypack.dev/-/canvas-confetti@v1.6.0-t438JJTXIbBReqvLtDua/dist=es2019,mode=imports/optimized/canvas-confetti.js": { "integrity": "sha512-UTVW+m2U8KMpv2DDBRenS6zMfDWLfxDTnajkORgBShJ99IUkjbPuCdSXvDbNfJZP/jnUszkv9raaV4GasplDhA==", "contentType": "application/javascript; charset=utf-8" },
+  "https://cdn.skypack.dev/canvas-confetti": { "integrity": "sha512-SBcnZM3xzi+dAj6oazE68FHFqWNPMF+YqQ4qFCf4cdhyD9dPgG9MhjU8Oc8X/oTsDVM+CSYBd2pPm1z6j7hOCw==", "contentType": "application/javascript; charset=utf-8" },
+  "https://gist.githack.com/koenbok/5f844e61e1266ac9ac5514023997c750/raw/8f7b64eb628921bed4862b6795612ed2002e463d/test-component.js": { "integrity": "sha512-PItKeOwuVV6pDm9DBNK2c9wAiLYUAq4rCldR32CwK8Xar26fiPF+Q2lPFz1FaaPELhGDBwfaN5sE5f4TX9usJw==", "contentType": "application/javascript; charset=utf-8" },
+  "version": 1
+}

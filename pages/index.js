@@ -2,10 +2,26 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import confetti from 'https://cdn.skypack.dev/canvas-confetti'
+import { useEffect } from 'react'
+import { TestComponent } 
+from "https://gist.githack.com/koenbok/5f844e61e1266ac9ac5514023997c750/raw/8f7b64eb628921bed4862b6795612ed2002e463d/test-component.js"
+// import FadhelComponent from "http://localhost:3000/js/Button.js"
+import dynamic from 'next/dynamic';
+
+const FadhelComponent = dynamic(() => import("http://localhost:3000/js/Button.js"),
+	{
+		ssr: true,
+
+	});
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  useEffect(() => {
+    confetti();
+  })
   return (
     <>
       <Head>
@@ -14,6 +30,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <TestComponent />
+      <FadhelComponent />
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
